@@ -11,12 +11,13 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true,
       "unique": true
     },
     "posts": {
+      "private": true,
       "collection": "post",
       "via": "category"
     }
